@@ -1,10 +1,10 @@
-﻿#Connect to you Azure account
+#Connect to you Azure account
 Connect-AzureRmAccount
 
 # Variables for common values
-$resourceGroup = "DanRG"
+$resourceGroup = "RG"
 $location = "westeurope"
-$vmName = "DanVM"
+$vmName = "VM"
 
 # Create user object
 $cred = Get-Credential -Message "Enter a username and password for the virtual machine."
